@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --blue: #0052B4;
+    --lightblue: #4b95ff;
+    --white: #fff;
+    --black: #000;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--blue);
+    padding: 28px 12%;
+    transition: all .50s ease;
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+}
+
+.logo p{
+    font-size: 35px;
+    color: var(--white);
+}
+
+.logoimg{
+    width: 75px;
+    height: auto;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-links a{
+    color: var(--white);
+    font-size: 20px;
+    padding: 5px 0;
+    margin: 0 30px;
+    transition: all .50s ease;
+}
+
+.main{
+    justify-content: space-between;
+    display: flex;
+}
+
+.signin{
+    border: none;
+    margin-right: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: var(--white);
+}
+
+.signin a{
+    font-size: 16px;
+    padding: 2px;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.signin i{
+    font-size: 16px;
+}
+
+.signin:hover{
+    border: 2px solid var(--black);
+}
+
+.register{
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    border: 3px solid var(--white);
+}
+
+.register a{
+    font-size: 16px;
+    padding: 2px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.register:hover{
+    background-color: var(--white);
+}
+
+.register a:hover{
+    color: var(--blue);
+}
+
+span{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+

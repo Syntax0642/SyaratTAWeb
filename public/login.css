@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --blue: #0052B4;
+    --lightblue: #4b95ff;
+    --white: #fff;
+    --black: #000;
+    --greytxt: #38692A6;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.banner{
+    height: 100vh;
+    width: 45%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("assets/images/banner.jpg");
+}
+
+.banner::before{
+    content: '';
+    display: block;
+    height: 100vh;
+    position: absolute;
+    width: 45%;
+    background: rgba(21, 101, 216, 70%);
+}
+
+.registerform{
+    margin-left: 200px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.subheader{
+    font-size: 18px;
+    color: #8692A6;
+}
+
+.rform{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.username{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.password{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    color: #696F79;
+}
+
+input{
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #1565D8;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.checkbox-container {
+    display: flex;
+}
+
+span{
+    margin-top: 5px;
+    color: #696F79;
+    margin-left: 5px;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: #1565D8;
+    color: white;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.link{
+    margin-left: 200px;
+    margin-top: 20px;
+    display: flex;
+    color: #696F79;
+}
+
+.a{
+    margin-right: 4px;
+
+}
+
+.b{
+    color: #696F79;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button:hover{
+    border: 2px solid black;
+}
